@@ -1,0 +1,43 @@
+PUT COMMAND
+{
+  "token" : "90937197|-31948800293621370|90933127",
+  "cmd" : "PUT",
+  "dbName" : "Employee",
+  "rel" : "Emp-Rel",
+  "jsonStr" : {
+    	"name" : "Devyani",
+    	"email" : "dvyani@gmail.com",
+  }
+}
+
+GET COMMAND
+{
+  "token" : "90937197|-31948800293621370|90933127",
+  "cmd" : "GET",
+  "dbName" : "Employee",
+  "rel" : "Emp-Rel",
+  "jsonStr" : {
+    	"name" : "NIkita"
+  }
+}
+
+UPDATE COMMAND
+{
+  "token" : "90937197|-31948800293621370|90933127",
+  "cmd" : "UPDATE"
+  "dbName" : "Employee",
+  "rel" : "Emp-Rel",
+  "jsonStr" : {
+  "1" : {"email" : "sharma@123"}
+ 	"2" : {"name" : "Nikita"}
+  }
+}
+
+REMOVE COMMAND 
+{
+  "token" : "90937197|-31948800293621370|90933127",
+  "cmd" : "REMOVE"
+  "dbName" : "Employee",
+  "rel" : "Emp-Rel",
+  "record" : 2
+}
